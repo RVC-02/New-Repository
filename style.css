@@ -85,7 +85,7 @@ nav {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    overflow: hidden; /* makes image perfectly circle */
+    overflow: hidden;
     margin: 0 auto 20px;
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ nav {
 .profile-placeholder img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* fills circle nicely */
+    object-fit: cover;
 }
 
 .hero h1 {
@@ -146,19 +146,19 @@ nav {
 }
 
 .photo-box {
-    background: none; /* Remove grey background */
+    background: none; 
     height: 300px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* prevents image overflow */
+    overflow: hidden; 
 }
 
 .photo-box img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* keeps aspect ratio while filling box */
+    object-fit: contain; 
     border-radius: 10px;
 }
 
